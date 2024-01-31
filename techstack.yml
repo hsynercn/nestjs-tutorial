@@ -1,0 +1,120 @@
+repo_name: hsynercn/nestjs-tutorial
+report_id: b8a81309c4b3e8b4dd2899336f49ec68
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T10:51:47+00:00'
+requested_by: hsynercn
+provider: github
+branch: main
+detected_tools_count: 8
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/hsynercn/nestjs-tutorial/blob/main/scratch/package.json
+  detection_source: scratch/package.json
+  last_updated_by: Huseyin Can Ercan
+  last_updated_on: 2023-06-04 17:47:14.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/hsynercn/nestjs-tutorial
+  detection_source: Repo Metadata
+- name: NestJS
+  description: A progressive Node.js framework for building efficient and scalable
+    server-side applications by @kammysliwiec.
+  website_url: nestjs.com
+  version: 7.6.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/8747/4zsOyxko_400x400.jpg
+  detection_source_url: https://github.com/hsynercn/nestjs-tutorial/blob/main/scratch/package-lock.json
+  detection_source: scratch/package.json
+  last_updated_by: Huseyin Can Ercan
+  last_updated_on: 2023-06-04 17:47:14.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hsynercn/nestjs-tutorial
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/hsynercn/nestjs-tutorial/blob/main/scratch/package.json
+  detection_source: scratch/package.json
+  last_updated_by: Huseyin Can Ercan
+  last_updated_on: 2023-06-04 17:47:14.000000000 Z
+- name: "@nestjs/common"
+  description: Nest - modern
+  package_url: https://www.npmjs.com/@nestjs/common
+  version: 7.6.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16950/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/hsynercn/nestjs-tutorial/blob/main/scratch/package-lock.json
+  detection_source: scratch/package.json
+  last_updated_by: Huseyin Can Ercan
+  last_updated_on: 2023-06-04 17:47:14.000000000 Z
+- name: "@nestjs/core"
+  description: Nest - modern, fast, powerful node.js web framework
+  package_url: https://www.npmjs.com/@nestjs/core
+  version: 7.6.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17223/default_48f040bdc5f6c639c70bf350f8b8158ede27286c.png
+  detection_source_url: https://github.com/hsynercn/nestjs-tutorial/blob/main/scratch/package-lock.json
+  detection_source: scratch/package.json
+  last_updated_by: Huseyin Can Ercan
+  last_updated_on: 2023-06-04 17:47:14.000000000 Z
+  vulnerabilities:
+  - name: "@nestjs/core vulnerable to Information Exposure via StreamableFile pipe"
+    cve_id: CVE-2023-26108
+    cve_url: https://github.com/advisories/GHSA-4jpv-8r57-pv7j
+    detected_date: Mar 8
+    severity: moderate
+    first_patched: 9.0.5
+- name: reflect-metadata
+  description: Polyfill for Metadata Reflection API
+  package_url: https://www.npmjs.com/reflect-metadata
+  version: 0.1.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16019/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/hsynercn/nestjs-tutorial/blob/main/scratch/package-lock.json
+  detection_source: scratch/package.json
+  last_updated_by: Huseyin Can Ercan
+  last_updated_on: 2023-06-04 17:47:14.000000000 Z
